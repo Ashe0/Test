@@ -1,5 +1,6 @@
+#Key Holding Code:
+'''
 import pygame, sys
-from pygame.locals import *
 pygame.init()
 pygame.display.init()
 running = True
@@ -10,6 +11,7 @@ FPS = 120
 FPSCLOCK = pygame.time.Clock()
 DISPLAYSURF = pygame.display.set_mode((400,400))
 color = RED
+
 while running:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
@@ -23,3 +25,9 @@ while running:
   DISPLAYSURF.fill(color)
   pygame.display.update()
   FPSCLOCK.tick(FPS)
+'''
+#Dictionaries
+'''
+dictionary = {'Stick':2,'Apple':4}
+print(dictionary['Stick'])
+'''
